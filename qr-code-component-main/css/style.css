@@ -1,0 +1,19 @@
+/* VARIABLES */
+
+/* GENERAL STYLES */
+
+* {
+  --background: #D5E1EF;
+  --dark: #1F314F;
+  --medium: #68778D;
+
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  text-align: center;
+}
+
