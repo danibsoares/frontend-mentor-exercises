@@ -56,8 +56,13 @@ main .card-container .center .card-title {
   letter-spacing: 0;
 }
 
+main .card-container .center .card-content {
+  color: var(--medium);
+}
+
 /* FOOTER */
 footer .attribution {
+  color: var(--medium);
   position: fixed;
   bottom: 0;
   width: 100%;
