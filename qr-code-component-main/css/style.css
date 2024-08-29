@@ -1,0 +1,70 @@
+/* GENERAL STYLES */
+* {
+  --background: #D5E1EF;
+  --dark: #1F314F;
+  --medium: #68778D;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+  text-align: center;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* CARD */
+main .card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 47rem;
+}
+
+main .card-container .center {
+  background-color: #FFFFFF;
+  padding: 1rem 1rem 2.5rem 1rem;
+  margin: auto;
+  width: 50%;
+  max-width: 20rem;
+  height: 67%;
+  max-height: 31,1875rem;
+  border-radius: 1.25rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+main .card-container .center figure img {
+  display: block;
+  width: 18rem;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 0.625rem;
+}
+
+main .card-container .center .card-title {
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+
+main .card-container .center .card-content {
+  color: var(--medium);
+}
+
+/* FOOTER */
+footer .attribution {
+  color: var(--medium);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
