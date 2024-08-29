@@ -24,7 +24,7 @@ main .card-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 47rem;
 }
 
 main .card-container .center {
@@ -45,6 +45,7 @@ main .card-container .center {
 main .card-container .center figure img {
   display: block;
   width: 18rem;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 0.625rem;
 }
